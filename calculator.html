@@ -1,9 +1,65 @@
+<!DOCTYPE html>
 <html>
   <head>
     <title>Calculator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
   </head>
   <body>
     <h1>Calculator</h1>
+    <form id="add">
+      <div class="form-group">
+        <label for="add1">1st number:</label>
+        <input id="add1" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="add2">2nd number:</label>
+        <input id="add2" class="form-control" type="text">
+      </div>
+      <button type="submit" class="btn">Add!</button>
+    </form>
+    <div id="output"></div>
+    <form id="subtract">
+      <div class="form-group">
+        <label for="sub1">1st number:</label>
+        <input id="sub1" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="sub2">2nd number:</label>
+        <input id="sub2" class="form-control" type="text">
+      </div>
+      <button type="submit" class="btn">Subtract!</button>
+    </form>
+    <div id="output"></div>
+    <form id="multiply">
+      <div class="form-group">
+        <label for="mul1">1st number:</label>
+        <input id="mul1" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="mul2">2nd number:</label>
+        <input id="mul2" class="form-control" type="text">
+      </div>
+      <button type="submit" class="btn">multiply!</button>
+    </form>
+    <div id="output"></div>
+  </form>
+  <div id="output"></div>
+  <form id="divide">
+    <div class="form-group">
+      <label for="div1">1st number:</label>
+      <input id="div1" class="form-control" type="text">
+    </div>
+    <div class="form-group">
+      <label for="div2">2nd number:</label>
+      <input id="div2" class="form-control" type="text">
+    </div>
+    <button type="submit" class="btn">divide!</button>
+  </form>
+  <div id="output"></div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
   </body>
 </html>
